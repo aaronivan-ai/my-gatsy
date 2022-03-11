@@ -27,6 +27,7 @@
   * Airflow中的術語是poking(也就是用polling的方式)，來檢查sensor的條件是否成立
   * 可用來實作類似Human task
 * TriggerDagRunOperator可做到呼叫subflow的效果
+  * 做到for loop的效果
 * 提供REST, CLI，啟動workflow
 * 支援與多樣的外部系統溝通
   * 如Apache Spark，多種public cloud provider
